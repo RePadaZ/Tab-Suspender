@@ -17,10 +17,6 @@
     },
     "default_popup": "popup.html"
   },
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
   "permissions": [
     "tabs",
     "storage",
@@ -28,6 +24,6 @@
     "alarms"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "service_worker.js"
   }
 }
