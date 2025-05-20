@@ -2,6 +2,7 @@
 chrome.runtime.onStartup.addListener(setupTimerFromStorage);
 chrome.runtime.onInstalled.addListener(setupTimerFromStorage);
 
+
 // Слушаем alarm
 chrome.alarms.onAlarm.addListener((alarm) => {
     if (alarm.name === "autoDiscard") {
